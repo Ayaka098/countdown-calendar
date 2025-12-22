@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "嵐カウントダウンカレンダー",
   description: "嵐の活動終了日まであと何日？かわいい日めくりでチェック",
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
